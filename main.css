@@ -1,0 +1,49 @@
+* {
+    border: 1px solid indigo;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+    background-color: bisque;
+    font-size: 20px;
+    color: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* padding: 30px; */
+    /* border: 40px hotpink solid; */
+}
+
+header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    padding: 30px;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: honeydew;
+}
+
+.contact {
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    font-weight: bolder;
+}
